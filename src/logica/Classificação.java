@@ -12,5 +12,6 @@ public class Classificação {
         } else{
             System.out.println("Idoso");
         }
+
     }
 }

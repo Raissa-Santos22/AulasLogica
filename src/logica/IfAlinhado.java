@@ -14,4 +14,5 @@ public class IfAlinhado {
             System.out.println("Reprovado por nota");
     }
     }
+
 }
