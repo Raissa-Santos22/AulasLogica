@@ -1,16 +1,15 @@
 package logicaexercicios;
 
+// Exercício 7
+
 public class ForAlinhado {
     public static void main(String[] args) {
-        int linhas = 5;
-        int colunas = 5;
-
-        for (int i = 0; i < linhas; i++) {
-            for (int j = 0; j < colunas; j++) {
-                int valor = i + j;
-                System.out.print(valor + "\t"); // "\t" para alinhar em colunas
+        for (int i = 0; i <= 5 ; i++) {
+            for (int j = 0; j <= 5 ; j++) {
+                System.out.printf("%d x %d = %d  ", i, j, i * j);
+                System.out.println();
             }
-            System.out.println(); // Quebra de linha após cada linha da matriz
+            System.out.println();
         }
     }
 }

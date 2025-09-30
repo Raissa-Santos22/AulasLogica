@@ -1,18 +1,20 @@
 package logicaexercicios;
 
+// Exercício 2
+
 public class IfAlinhado {
     public static void main(String[] args) {
-        int nota = 9;
-        int frequencia = 95;
+        double nota = 5;
+        int frequencia = 50;
         if(nota >= 7){
-            if (frequencia >= 75){
-                System.out.println("Aluno aprovado");
-            }else{
-                System.out.println("Reprovado por frequencia");
+            if(frequencia >= 75){
+                System.out.println("Aprovado por sua nota e frequencia");
             }
-        }else {
-            System.out.println("Reprovado por nota");
         }
+        else{
+            System.out.println("Reprovado por frequencia e nota ");
+        }
+
     }
 }
 
